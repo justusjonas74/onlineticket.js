@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
+  "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justusjonas74/onlineticket.js.git"
@@ -24,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/justusjonas74/onlineticket.js/issues"
   },
-  "homepage": "https://github.com/justusjonas74/onlineticket.js#readme"
+  "homepage": "https://github.com/justusjonas74/onlineticket.js#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "treeify": "^1.0.1",
+    "uic-918-3": "^0.1.1"
+  }
 }
