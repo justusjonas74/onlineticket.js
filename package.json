@@ -1,0 +1,28 @@
+{
+  "name": "onlineticket",
+  "version": "0.1.0",
+  "description": "A node.js CLI for reading barcodes on public transport tickets (e.g. Deutsche Bahn).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justusjonas74/onlineticket.js.git"
+  },
+  "keywords": [
+    "Deutsche",
+    "Bahn",
+    "aztec",
+    "uic918.3",
+    "uic",
+    "onlineticket",
+    "bahn.de"
+  ],
+  "author": "Francis Doege <hello@francisdoege.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justusjonas74/onlineticket.js/issues"
+  },
+  "homepage": "https://github.com/justusjonas74/onlineticket.js#readme"
+}
