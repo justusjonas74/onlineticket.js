@@ -39,6 +39,7 @@ if (program.args.length > 0) {
   // ONE OR MORE ARGUMENTS GIVEN
   if (program.image) {
     //console.log(program.args);
+    drawIntro();
     program.args.forEach((file_path) => interpretBarcode(file_path));
   } else {
     // DON'T KNOW HOW TO HANDLE THAT FILE:
