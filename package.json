@@ -29,7 +29,9 @@
   "homepage": "https://github.com/justusjonas74/onlineticket.js#readme",
   "dependencies": {
     "chalk": "^2.3.0",
+    "clear": "0.0.1",
     "commander": "^2.13.0",
+    "figlet": "^1.2.0",
     "treeify": "^1.0.1",
     "uic-918-3": "^0.1.1"
   }
