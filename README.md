@@ -3,6 +3,8 @@ A node.js CLI for reading barcodes on public transport tickets (e.g. Deutsche Ba
 
 This tool is a JavaScript port of Hagen Fritzsch's Python script  [onlineticket](https://github.com/rumpeltux/onlineticket/).
 
+## Example
+![Example](docs/img/example.gif?raw=true)
 
 ## Install
 ```bash
