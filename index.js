@@ -13,16 +13,19 @@ program
 
 program
   .usage('[options] <file ...>')
-  .option('-i, --image', 'if file is an image (png,jpeg,...)');
-
-program.parse(process.argv);
+  .option('-i, --image', 'if file is an image (png,jpeg,...)')
+  .option('-s, --signature', 'verify the barcode signature')
+  .parse(process.argv);
 
 if (program.args.length > 0) {
   // ONE OR MORE ARGUMENTS GIVEN
   if (program.image) {
     //console.log(program.args);
     drawIntro();
-    program.args.forEach((file_path) => interpretBarcode(file_path));
+    const verifySignature = program.signature
+    const opts = verifySignature ? {verifySignature: true} : {}
+    // console.log(opts)
+    program.args.forEach((file_path) => interpretBarcode(file_path, opts));
   } else {
     // DON'T KNOW HOW TO HANDLE THAT FILE:
     err('No file type argument (--image, --pdf, ...) passed.');

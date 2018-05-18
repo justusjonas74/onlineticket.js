@@ -18,6 +18,11 @@ npm install -g onlineticket
 onlineticket --image path/to/file/filename.png
 # Alias
 onlineticket -i path/to/file/filename.png
+
+# [Flags:]
+# -s --signature --> Try to verify the barcode siganture
+onlineticket -is path/to/file/filename.png
+
 ```
 
 ## Contributing
