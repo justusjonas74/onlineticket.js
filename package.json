@@ -1,6 +1,6 @@
 {
   "name": "onlineticket",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A node.js CLI for reading barcodes on public transport tickets (e.g. Deutsche Bahn).",
   "main": "index.js",
   "scripts": {
