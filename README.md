@@ -1,4 +1,4 @@
-**__This repo is deprecated. The CLI functionality is now integrated in the library package [justusjonas74/uic-918-3](https://github.com/justusjonas74/uic-918-3/).__ **
+**This repo is deprecated. The CLI functionality is now integrated in the library package [justusjonas74/uic-918-3](https://github.com/justusjonas74/uic-918-3/)._**
 
 # onlineticket.js
 
