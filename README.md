@@ -1,4 +1,6 @@
 # onlineticket.js
+__This repo is deprecated. The CLI functionality is now integrated in the library package [justusjonas74/uic-918-3](https://github.com/justusjonas74/uic-918-3/).__ 
+
 A node.js CLI for reading barcodes on public transport tickets (e.g. Deutsche Bahn). It's a command line wrapper for my [uic-918-3 package](https://github.com/justusjonas74/uic-918-3). Check out this repository for more informations about the parsing logic etc.
 
 This tool is a JavaScript port of Hagen Fritzsch's Python script  [onlineticket](https://github.com/rumpeltux/onlineticket/).
